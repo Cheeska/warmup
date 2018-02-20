@@ -1,3 +1,6 @@
 module.exports = function warmup(temperature) {
-  // your implementation here
+    var coefficient = 1.8;
+    var delta = 32;
+    var temperatureFahrenheit = (temperature * coefficient) + delta;
+    return temperatureFahrenheit;
 };
